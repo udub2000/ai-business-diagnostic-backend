@@ -1,0 +1,28 @@
+{
+  "business": {
+    "name": "Sparkle Home Cleaning",
+    "business_type": "Residential Cleaning",
+    "location": "Chicago, IL",
+    "notes": "Overbooked and considering hiring"
+  },
+  "intake": {
+    "leads_per_week": 45,
+    "conversion_rate": 52,
+    "avg_job_value": 140,
+    "crews": 2,
+    "jobs_per_crew_per_day": 5,
+    "backlog_days": 10,
+    "utilization_rate": 88,
+    "labor_cost_pct": 48,
+    "gross_margin_pct": 42,
+    "travel_time_minutes": 18,
+    "demand_consistency": "stable",
+    "schedule_fullness": "overbooked",
+    "profitability_feeling": "tight",
+    "response_speed": "fast",
+    "turned_away_work": "frequently",
+    "can_take_work_tomorrow": "no",
+    "notes": "Customers are waiting too long for openings"
+  },
+  "generate_report": true
+}

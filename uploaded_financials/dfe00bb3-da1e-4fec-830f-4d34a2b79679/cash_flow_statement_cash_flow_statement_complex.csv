@@ -1,0 +1,17 @@
+Acme Service Co.,,,,,
+Consolidated Cash Flow Statement,,,,,
+For the Years Ended December 31,,,,,
+,,,,,
+Category,Line Item,2023,2024,2025,Notes
+Operating Activities,Net Income,151500,194000,230500,From income statement
+Operating Activities,Depreciation,18000,20000,23000,Non-cash addback
+Operating Activities,Change in Accounts Receivable,-14000,-16000,-24000,AR increase uses cash
+Operating Activities,Change in Inventory,-9000,-13000,-14000,Inventory increase uses cash
+Operating Activities,Change in Accounts Payable,7000,13000,15000,AP increase provides cash
+Operating Activities,Net Cash from Operations,153500,198000,230500,Operating cash flow
+Investing Activities,Capital Expenditures,-52000,-55000,-63000,Vehicles/equipment
+Financing Activities,Debt Issued,35000,0,0,New loan proceeds
+Financing Activities,Debt Repayment,-22000,-25000,-27000,Principal paid
+Financing Activities,Owner Distributions,-45000,-70000,-98000,Owner draws
+Cash,Net Change in Cash,69500,48000,42500,Change in cash
+Cash,Ending Cash,85000,125000,168000,Ending balance

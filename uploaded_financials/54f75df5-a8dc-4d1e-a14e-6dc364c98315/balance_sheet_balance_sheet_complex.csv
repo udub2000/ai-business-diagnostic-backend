@@ -1,0 +1,19 @@
+Acme Service Co.,,,,,
+Consolidated Balance Sheet,,,,,
+As of December 31,,,,,
+,,,,,
+Category,Line Item,2023,2024,2025,Notes
+Current Assets,Cash,85000,125000,168000,Bank balances
+Current Assets,Accounts Receivable,76000,92000,116000,Customer invoices
+Current Assets,Inventory,52000,65000,79000,Materials
+Current Assets,Prepaid Expenses,9000,11000,12000,"Insurance, software"
+Assets,Total Current Assets,222000,293000,375000,Current assets
+Fixed Assets,Vehicles and Equipment,185000,220000,260000,Fleet/equipment
+Fixed Assets,Accumulated Depreciation,-62000,-82000,-105000,Contra asset
+Assets,Total Assets,345000,431000,530000,Current + fixed
+Current Liabilities,Accounts Payable,43000,56000,71000,Vendor bills
+Current Liabilities,Accrued Payroll,22000,27000,32000,Payroll accrual
+Current Liabilities,Current Debt,28000,25000,21000,Current portion
+Long-Term Liabilities,Long-Term Debt,118000,96000,73000,Remaining loans
+Equity,Owner Equity,134000,227000,333000,Equity
+Liabilities & Equity,Total Liabilities & Equity,345000,431000,530000,Balances to assets

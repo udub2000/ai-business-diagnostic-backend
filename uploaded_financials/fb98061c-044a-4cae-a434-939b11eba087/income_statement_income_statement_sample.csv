@@ -1,0 +1,10 @@
+Income Statement,,,
+"For the Year Ended December 31, 2025",,,
+Line Item,2024,2025,Notes
+Revenue,850000,980000,Service revenue
+Cost of Goods Sold,340000,392000,Direct labor/materials
+Gross Profit,510000,588000,Revenue - COGS
+Operating Expenses,310000,345000,"Admin, rent, marketing"
+Operating Income,200000,243000,Gross profit - OpEx
+Interest Expense,12000,10000,Debt service
+Net Income,188000,233000,Operating income - interest

@@ -1,0 +1,14 @@
+Scenario 2 - Weak Cash Flow - Income Statement
+Prepared for Phase 4 parser test
+
+Category,Line Item,2023,2024,2025
+Revenue,Service Revenue,1050000,1180000,1320000
+Revenue,Total Revenue,1050000,1180000,1320000
+Cost of Revenue,Direct Labor,390000,455000,530000
+Cost of Revenue,Materials and Parts,230000,270000,320000
+Cost of Revenue,Total Cost of Revenue,620000,725000,850000
+Profit,Gross Profit,430000,455000,470000
+Operating Expenses,Total Operating Expenses,250000,285000,330000
+Profit,Operating Income,180000,170000,140000
+Other,Interest Expense,30000,45000,70000
+Profit,Net Income,150000,125000,70000

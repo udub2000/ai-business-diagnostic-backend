@@ -1,0 +1,11 @@
+Balance Sheet,,,
+"As of December 31, 2025",,,
+Line Item,2024,2025,Notes
+Cash,125000,160000,Bank accounts
+Accounts Receivable,90000,105000,Customer invoices
+Inventory,65000,72000,Materials/supplies
+Total Assets,280000,337000,Cash + AR + inventory
+Accounts Payable,55000,62000,Vendor bills
+Debt,80000,70000,Loans
+Owner Equity,145000,205000,Assets - liabilities
+Total Liabilities & Equity,280000,337000,Balances to assets

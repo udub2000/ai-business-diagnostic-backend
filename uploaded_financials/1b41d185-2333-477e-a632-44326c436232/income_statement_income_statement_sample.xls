@@ -1,0 +1,17 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+body { font-family: Arial, sans-serif; }
+table { border-collapse: collapse; }
+td, th { border: 1px solid #999; padding: 6px 10px; }
+th { background: #eef2f7; font-weight: bold; }
+</style>
+</head>
+<body>
+<table>
+<tr><th>Income Statement</th><th></th><th></th><th></th></tr><tr><td>For the Year Ended December 31, 2025</td><td></td><td></td><td></td></tr><tr><th>Line Item</th><th>2024</th><th>2025</th><th>Notes</th></tr><tr><td>Revenue</td><td>850000</td><td>980000</td><td>Service revenue</td></tr><tr><td>Cost of Goods Sold</td><td>340000</td><td>392000</td><td>Direct labor/materials</td></tr><tr><td>Gross Profit</td><td>510000</td><td>588000</td><td>Revenue - COGS</td></tr><tr><td>Operating Expenses</td><td>310000</td><td>345000</td><td>Admin, rent, marketing</td></tr><tr><td>Operating Income</td><td>200000</td><td>243000</td><td>Gross profit - OpEx</td></tr><tr><td>Interest Expense</td><td>12000</td><td>10000</td><td>Debt service</td></tr><tr><td>Net Income</td><td>188000</td><td>233000</td><td>Operating income - interest</td></tr>
+</table>
+</body>
+</html>

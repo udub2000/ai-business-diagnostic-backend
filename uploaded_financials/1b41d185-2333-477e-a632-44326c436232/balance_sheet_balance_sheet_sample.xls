@@ -1,0 +1,17 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+body { font-family: Arial, sans-serif; }
+table { border-collapse: collapse; }
+td, th { border: 1px solid #999; padding: 6px 10px; }
+th { background: #eef2f7; font-weight: bold; }
+</style>
+</head>
+<body>
+<table>
+<tr><th>Balance Sheet</th><th></th><th></th><th></th></tr><tr><td>As of December 31, 2025</td><td></td><td></td><td></td></tr><tr><th>Line Item</th><th>2024</th><th>2025</th><th>Notes</th></tr><tr><td>Cash</td><td>125000</td><td>160000</td><td>Bank accounts</td></tr><tr><td>Accounts Receivable</td><td>90000</td><td>105000</td><td>Customer invoices</td></tr><tr><td>Inventory</td><td>65000</td><td>72000</td><td>Materials/supplies</td></tr><tr><td>Total Assets</td><td>280000</td><td>337000</td><td>Cash + AR + inventory</td></tr><tr><td>Accounts Payable</td><td>55000</td><td>62000</td><td>Vendor bills</td></tr><tr><td>Debt</td><td>80000</td><td>70000</td><td>Loans</td></tr><tr><td>Owner Equity</td><td>145000</td><td>205000</td><td>Assets - liabilities</td></tr><tr><td>Total Liabilities &amp; Equity</td><td>280000</td><td>337000</td><td>Balances to assets</td></tr>
+</table>
+</body>
+</html>

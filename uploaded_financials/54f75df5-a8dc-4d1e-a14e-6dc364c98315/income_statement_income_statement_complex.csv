@@ -1,0 +1,22 @@
+Acme Service Co.,,,,,
+Consolidated Income Statement,,,,,
+For the Years Ended December 31,,,,,
+,,,,,
+Category,Line Item,2023,2024,2025,Notes
+Revenue,Service Revenue,720000,850000,980000,Recurring + one-time jobs
+Revenue,Product / Materials Revenue,48000,55000,70000,Materials billed to customers
+Revenue,Total Revenue,768000,905000,1050000,Revenue + materials
+Cost of Revenue,Direct Labor,235000,280000,336000,Field labor
+Cost of Revenue,Materials and Supplies,82000,90000,105000,Job materials
+Cost of Revenue,Subcontractors,24000,28000,30000,Specialty work
+Cost of Revenue,Cost of Goods Sold,341000,398000,471000,Direct costs
+Profit,Gross Profit,427000,507000,579000,Total revenue minus COGS
+Operating Expenses,Office Payroll,118000,135000,155000,Admin payroll
+Operating Expenses,Rent and Utilities,42000,46000,51000,Facilities
+Operating Expenses,Marketing,55000,67000,72000,Lead generation
+Operating Expenses,Insurance and Licenses,28000,31500,34000,Overhead
+Operating Expenses,Software and Admin,18000,21000,26000,Systems
+Operating Expenses,Operating Expenses,261000,300500,338000,Total OpEx
+Income,Operating Income,166000,206500,241000,Gross profit minus OpEx
+Other,Interest Expense,14500,12500,10500,Debt service
+Income,Net Income,151500,194000,230500,After interest

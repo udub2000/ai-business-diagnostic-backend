@@ -1,0 +1,11 @@
+<!doctype html>
+<html>
+<head><meta charset="utf-8">
+<style>
+body { font-family: Arial, sans-serif; }
+table { border-collapse: collapse; width: 100%; }
+td, th { border: 1px solid #cbd5e1; padding: 6px 9px; }
+th { background: #edf2f7; font-weight: bold; }
+tr:nth-child(even) td { background: #f8fafc; }
+</style></head>
+<body><table><tr><th>Acme Service Co.</th><th></th><th></th><th></th><th></th><th></th></tr><tr><th>Consolidated Cash Flow Statement</th><th></th><th></th><th></th><th></th><th></th></tr><tr><th>For the Years Ended December 31</th><th></th><th></th><th></th><th></th><th></th></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><th>Category</th><th>Line Item</th><th>2023</th><th>2024</th><th>2025</th><th>Notes</th></tr><tr><td>Operating Activities</td><td>Net Income</td><td>151500</td><td>194000</td><td>230500</td><td>From income statement</td></tr><tr><td>Operating Activities</td><td>Depreciation</td><td>18000</td><td>20000</td><td>23000</td><td>Non-cash addback</td></tr><tr><td>Operating Activities</td><td>Change in Accounts Receivable</td><td>-14000</td><td>-16000</td><td>-24000</td><td>AR increase uses cash</td></tr><tr><td>Operating Activities</td><td>Change in Inventory</td><td>-9000</td><td>-13000</td><td>-14000</td><td>Inventory increase uses cash</td></tr><tr><td>Operating Activities</td><td>Change in Accounts Payable</td><td>7000</td><td>13000</td><td>15000</td><td>AP increase provides cash</td></tr><tr><td>Operating Activities</td><td>Net Cash from Operations</td><td>153500</td><td>198000</td><td>230500</td><td>Operating cash flow</td></tr><tr><td>Investing Activities</td><td>Capital Expenditures</td><td>-52000</td><td>-55000</td><td>-63000</td><td>Vehicles/equipment</td></tr><tr><td>Financing Activities</td><td>Debt Issued</td><td>35000</td><td>0</td><td>0</td><td>New loan proceeds</td></tr><tr><td>Financing Activities</td><td>Debt Repayment</td><td>-22000</td><td>-25000</td><td>-27000</td><td>Principal paid</td></tr><tr><td>Financing Activities</td><td>Owner Distributions</td><td>-45000</td><td>-70000</td><td>-98000</td><td>Owner draws</td></tr><tr><td>Cash</td><td>Net Change in Cash</td><td>69500</td><td>48000</td><td>42500</td><td>Change in cash</td></tr><tr><td>Cash</td><td>Ending Cash</td><td>85000</td><td>125000</td><td>168000</td><td>Ending balance</td></tr></table></body></html>

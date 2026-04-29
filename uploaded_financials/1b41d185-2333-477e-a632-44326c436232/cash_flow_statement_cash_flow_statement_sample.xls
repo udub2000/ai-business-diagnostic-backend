@@ -1,0 +1,17 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+body { font-family: Arial, sans-serif; }
+table { border-collapse: collapse; }
+td, th { border: 1px solid #999; padding: 6px 10px; }
+th { background: #eef2f7; font-weight: bold; }
+</style>
+</head>
+<body>
+<table>
+<tr><th>Cash Flow Statement</th><th></th><th></th><th></th></tr><tr><td>For the Year Ended December 31, 2025</td><td></td><td></td><td></td></tr><tr><th>Line Item</th><th>2024</th><th>2025</th><th>Notes</th></tr><tr><td>Net Income</td><td>188000</td><td>233000</td><td>From income statement</td></tr><tr><td>Change in Accounts Receivable</td><td>-15000</td><td>-15000</td><td>Increase uses cash</td></tr><tr><td>Change in Inventory</td><td>-8000</td><td>-7000</td><td>Increase uses cash</td></tr><tr><td>Change in Accounts Payable</td><td>6000</td><td>7000</td><td>Increase provides cash</td></tr><tr><td>Net Cash from Operations</td><td>171000</td><td>218000</td><td>Operating cash flow</td></tr><tr><td>Capital Expenditures</td><td>-45000</td><td>-55000</td><td>Equipment/vehicles</td></tr><tr><td>Debt Repayment</td><td>-20000</td><td>-10000</td><td>Loan principal</td></tr><tr><td>Net Change in Cash</td><td>106000</td><td>153000</td><td>Cash movement</td></tr>
+</table>
+</body>
+</html>

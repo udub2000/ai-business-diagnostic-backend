@@ -1,0 +1,14 @@
+Scenario 2 - Weak Cash Flow - Cash Flow Statement
+Prepared for Phase 4 parser test
+
+Category,Line Item,2023,2024,2025
+Operating Activities,Net Income,150000,125000,70000
+Operating Activities,Change in Accounts Receivable,-45000,-50000,-85000
+Operating Activities,Change in Inventory,-28000,-32000,-38000
+Operating Activities,Change in Accounts Payable,22000,60000,55000
+Operating Activities,Net Cash Provided by Operating Activities,99000,103000,2000
+Investing Activities,Purchases of Property and Equipment,-95000,-120000,-140000
+Financing Activities,Repayments of Debt,-35000,-38000,-42000
+Financing Activities,Debt Issued,85000,160000,200000
+Cash,Net Change in Cash,54000,105000,20000
+Cash,Cash at End of Period,90000,62000,35000

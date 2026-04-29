@@ -1,0 +1,12 @@
+Scenario 2 - Weak Cash Flow - Balance Sheet
+Prepared for Phase 4 parser test
+
+Category,Line Item,2023,2024,2025
+Current Assets,Cash and Cash Equivalents,90000,62000,35000
+Current Assets,Accounts Receivable,160000,210000,295000
+Current Assets,Inventory,110000,142000,180000
+Assets,Total Assets,720000,810000,930000
+Current Liabilities,Accounts Payable,130000,190000,245000
+Current Liabilities,Current Debt,95000,135000,180000
+Long-Term Liabilities,Long-Term Debt,310000,425000,540000
+Equity,Total Equity,185000,60000,-35000
