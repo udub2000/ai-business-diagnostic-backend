@@ -30,3 +30,5 @@ pypdf==4.3.1
 
 # Optional but helpful
 python-dateutil==2.9.0.post0
+
+reportlab==4.4.9
