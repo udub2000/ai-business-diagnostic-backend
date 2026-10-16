@@ -2834,11 +2834,11 @@ def allowed_financial_upload(filename: str) -> bool:
     return Path(filename).suffix.lower() in {".csv", ".xlsx", ".xls", ".pdf"}
 
 
-async def save_financial_upload(assessment_upload_id: str, statement_type: str, upload: Optional[UploadFile]) -> Optional[dict[str, str]]:
+async def save_financial_upload(assessment_upload_id: str, statement_type: str, upload: Optional[UploadFile], allow_docx: bool = False) -> Optional[dict[str, str]]:
     if upload is None or not upload.filename:
         return None
 
-    if not allowed_financial_upload(upload.filename):
+    if not (allowed_financial_upload(upload.filename) or (allow_docx and Path(upload.filename).suffix.lower() == ".docx")):
         raise HTTPException(status_code=400, detail=f"Unsupported file type for {statement_type}. Upload CSV, Excel, or PDF files only.")
 
     upload_folder = UPLOAD_DIR / assessment_upload_id
@@ -2877,6 +2877,44 @@ def apply_financial_upload_metadata(payload_dict: dict[str, Any], uploads: dict[
 
     payload_dict["financial_uploads_present"] = any_uploads or bool(payload_dict.get("financial_uploads_present"))
     return payload_dict
+
+
+# v0.58: read-only experimental preview. Separate from submission, scoring, DB and email.
+@app.post("/api/v1/document-intelligence/preview")
+async def preview_additional_business_documents(
+    additional_business_documents: list[UploadFile] = File(...),
+) -> dict[str, Any]:
+    import tempfile
+    from app.document_intelligence.preview import (
+        SUPPORTED, MAX_FILE_BYTES, MAX_FILES, preview_document,
+    )
+    if not 1 <= len(additional_business_documents) <= MAX_FILES:
+        raise HTTPException(status_code=400, detail="Choose between 1 and 5 documents.")
+    results = []
+    for document in additional_business_documents:
+        safe_name = Path(document.filename or "").name
+        suffix = Path(safe_name).suffix.lower()
+        if suffix not in SUPPORTED:
+            raise HTTPException(status_code=400, detail="Unsupported document format.")
+        with tempfile.TemporaryDirectory(prefix="diag_preview_") as temp:
+            path = Path(temp) / ("upload" + suffix)
+            with path.open("wb") as out:
+                count = 0
+                while True:
+                    chunk = await document.read(256 * 1024)
+                    if not chunk:
+                        break
+                    count += len(chunk)
+                    if count > MAX_FILE_BYTES:
+                        raise HTTPException(status_code=413, detail="Document exceeds 8 MB preview limit.")
+                    out.write(chunk)
+            try:
+                results.append(preview_document(path, safe_name))
+            except Exception:
+                # Avoid disclosing private document contents in exception text.
+                results.append({"file_name": safe_name, "status": "review_required",
+                                "error": "Unable to extract this document; manual review required."})
+    return {"mode": "read_only_preview", "diagnostic_unchanged": True, "documents": results}
 
 @app.get("/health")
 def health() -> dict[str, Any]:
@@ -2951,7 +2989,7 @@ async def create_report_with_files_route(
             if document and document.filename:
                 if index >= 10:
                     raise HTTPException(status_code=400, detail="Maximum 10 additional documents per assessment.")
-                metadata = await save_financial_upload(upload_id, f"additional_business_documents_{index+1}", document)
+                metadata = await save_financial_upload(upload_id, f"additional_business_documents_{index+1}", document, allow_docx=True)
                 if metadata:
                     supplemental_uploads.append(metadata)
                     uploads[f"additional_business_documents_{index+1}"] = metadata
