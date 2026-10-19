@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Diagnostic Expansion — Local Development Preview</title>
+<style>body{font:16px/1.5 system-ui,sans-serif;max-width:860px;margin:30px auto;padding:0 20px;color:#192a39}h1{font-size:1.7rem}fieldset{border:1px solid #ccd5dc;border-radius:8px;padding:18px;margin:16px 0}label{display:block;margin:10px 0 5px;font-weight:600}input,select,textarea,button{font:inherit;padding:9px;border:1px solid #8a9da9;border-radius:5px;box-sizing:border-box}input,select,textarea{width:100%}button{background:#173e56;color:white;cursor:pointer}button:disabled{opacity:.6}#result{white-space:pre-wrap;overflow-wrap:anywhere;background:#f0f4f7;padding:16px;border-radius:8px}small{color:#536777}.notice{background:#fff4da;padding:12px;border-left:4px solid #ba8530}</style></head>
+<body><h1>Diagnostic Expansion — Development Preview</h1>
+<p class="notice"><strong>Local staging only.</strong> This form does not connect to production, save records, or generate a final diagnostic. Select conditions only when they are supported by the answer you enter.</p>
+<form id="assessment"><fieldset><legend>Business context</legend>
+<label for="business">Business type</label><select id="business" required><option value="">Choose a business</option><option>lawn care</option><option>roofing</option><option>fixed-fee consulting</option><option>wealth advisory</option><option>recruiting</option><option>brokerage and staffing</option><option>fitness studio</option><option>outpatient rehabilitation</option><option>managed it</option><option>event management</option><option>accounting</option><option>landscaping</option><option>salon</option></select>
+<label for="goal">Owner's goal (optional)</label><input id="goal" placeholder="e.g. improve reliable scheduling"></fieldset>
+<fieldset><legend>Question-linked evidence</legend>
+<p>Add multiple responses. Conditions are optional, respondent-attested, and are not independently verified.</p>
+<div id="answer-rows"></div>
+<button type="button" id="add-answer">Add another answer</button>
+</fieldset>
+<button type="submit" id="submit">Run local assessment preview</button></form>
+<h2>Assessment preview</h2><div id="result" role="status" aria-live="polite">No assessment submitted.</div>
+<script>
+'use strict';
+const $ = id => document.getElementById(id);
+const conditionOptions = [
+ ['','None / unsure — do not assert a condition'],
+ ['travel_productivity_loss','Travel / route productivity loss'],
+ ['billing_receivables_delay','Billing / receivables delay'],
+ ['project_scope_overrun','Project scope overrun'],
+ ['organic_client_growth_gap','Organic client growth gap'],
+ ['client_approval_delay','Client approval delay'],
+ ['staffing_cash_cycle','Staffing cash-cycle exposure'],
+ ['peak_slot_mismatch','Peak vs off-peak mismatch'],
+ ['claims_administration','Claims administration issue'],
+ ['ticket_escalation_process','Ticket escalation issue'],
+ ['event_deposit_cash_timing','Event deposit cash timing'],
+ ['unbilled_work','Unbilled work'],
+ ['financial_records_missing','Financial records missing'],
+ ['conversion_denominator_missing','Conversion denominator missing'],
+ ['credential_labor_shortage','Credentialed labor shortage'],
+ ['conflicting_evidence','Conflicting evidence'],
+ ['positive_financial_health','Positive financial health'],
+ ['healthy_reliability','Healthy reliability']
+];
+let nextRow = 0;
+function addAnswer(){
+ const id=++nextRow;
+ const row=document.createElement('div');row.className='answer-row';
+ row.style.cssText='border:1px solid #d5dde3;border-radius:8px;padding:12px;margin:12px 0';
+ const heading=document.createElement('strong');heading.textContent='Evidence response '+id;row.append(heading);
+ const qlabel=document.createElement('label');qlabel.textContent='Question identifier';qlabel.htmlFor='question-'+id;row.append(qlabel);
+ const question=document.createElement('input');question.id='question-'+id;question.className='question-id';question.required=true;question.pattern='[A-Za-z0-9_.-]+';question.value='question_'+id;row.append(question);
+ const alabel=document.createElement('label');alabel.textContent="Owner's response";alabel.htmlFor='answer-'+id;row.append(alabel);
+ const answer=document.createElement('textarea');answer.id='answer-'+id;answer.className='answer-text';answer.rows=3;answer.required=true;row.append(answer);
+ const clabel=document.createElement('label');clabel.textContent='Explicitly reported condition (optional)';clabel.htmlFor='condition-'+id;row.append(clabel);
+ const condition=document.createElement('select');condition.id='condition-'+id;condition.className='condition-code';
+ for(const [value,label] of conditionOptions){const option=document.createElement('option');option.value=value;option.textContent=label;condition.append(option);}row.append(condition);
+ const attLabel=document.createElement('label');const att=document.createElement('input');att.type='checkbox';att.className='asserted';att.style.width='auto';attLabel.append(att,document.createTextNode(' I confirm this answer supports the selected condition'));row.append(attLabel);
+ const remove=document.createElement('button');remove.type='button';remove.textContent='Remove response';remove.className='remove-answer';remove.addEventListener('click',()=>{if(document.querySelectorAll('.answer-row').length>1)row.remove();});row.append(remove);
+ $('answer-rows').append(row);
+}
+$('add-answer').addEventListener('click',addAnswer);addAnswer();
+$('assessment').addEventListener('submit',async event=>{
+ event.preventDefault();
+ const button=$('submit');const rows=[...document.querySelectorAll('.answer-row')];
+ const answers=[];const selections=[];const seen=new Set();
+ for(const row of rows){
+  const qid=row.querySelector('.question-id').value.trim();const response=row.querySelector('.answer-text').value.trim();
+  if(!qid||!response||seen.has(qid)){$('result').textContent='Each response requires a unique question ID and nonempty answer.';return;}
+  seen.add(qid);answers.push({question_id:qid,response,evidence_state:'owner_report'});
+  const code=row.querySelector('.condition-code').value;
+  if(code)selections.push({question_id:qid,condition_code:code,asserted:row.querySelector('.asserted').checked,selected_by:'respondent'});
+ }
+ button.disabled=true;$('result').textContent='Checking local staging service…';
+ const payload={business_type:$('business').value,owner_goal:$('goal').value.trim()||null,answers,condition_selections:selections};
+ try{const response=await fetch('/staging/assessment-preview',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(payload)});
+ const data=await response.json();
+ if(!response.ok){$('result').textContent='Validation error ('+response.status+'): '+JSON.stringify(data.detail??data);return;}
+ const preview=data.preview??{};
+ $('result').textContent='Category: '+data.category+'\nAnswers submitted: '+data.evidence_count+'\nStatus: '+preview.assessment_status+'\nCandidate: '+(preview.candidate_area??'none')+'\nSupporting questions: '+(preview.evidence_question_ids??[]).join(', ')+'\nWhy: '+(preview.why??'')+'\nVerification needed: '+(preview.verification_needed??[]).join('; ')+'\n\nNOT A FINAL REPORT — primary constraint unconfirmed.';
+ }catch(err){$('result').textContent='Local API unavailable: '+String(err);}
+ finally{button.disabled=false;}
+});
+</script></body></html>

@@ -1,0 +1,1326 @@
+{
+  "lawn care": {
+    "category": "Site & Field",
+    "questions": [
+      {
+        "id": "BC-01",
+        "label": "What does your business primarily provide? Choose category \u2192 business type; describe if needed."
+      },
+      {
+        "id": "BC-02",
+        "label": "How do you primarily earn revenue and fulfill customer commitments? Select primary model and any secondary models."
+      },
+      {
+        "id": "BC-03",
+        "label": "How long has the business operated?"
+      },
+      {
+        "id": "BC-04",
+        "label": "Approximate business scale: people, locations, and typical revenue band."
+      },
+      {
+        "id": "BC-05",
+        "label": "What is your main objective over the next 12 months? Maintain stability / improve profit / grow revenue / scale delivery / improve cash flow / prepare transition / other."
+      },
+      {
+        "id": "BC-06",
+        "label": "What would success look like for that objective? Quantified target or short description."
+      },
+      {
+        "id": "BC-07",
+        "label": "What are your top concerns or suspected bottlenecks?"
+      },
+      {
+        "id": "BC-08",
+        "label": "Any major seasonal, geographic, contractual, regulatory, or market conditions?"
+      },
+      {
+        "id": "BC-09",
+        "label": "How has the business changed recently (growth, downsizing, acquisition, new services)?"
+      },
+      {
+        "id": "BC-10",
+        "label": "Which services or revenue models account for most activity/revenue? Approximate shares if known."
+      },
+      {
+        "id": "D-01",
+        "label": "Trigger / other"
+      },
+      {
+        "id": "D-02",
+        "label": "Trigger / other"
+      },
+      {
+        "id": "D-03",
+        "label": "Trigger / other"
+      },
+      {
+        "id": "C-01",
+        "label": "Trigger / other"
+      },
+      {
+        "id": "C-02",
+        "label": "Trigger / other"
+      },
+      {
+        "id": "C-03",
+        "label": "Trigger / other"
+      },
+      {
+        "id": "CA-01",
+        "label": "Trigger / other"
+      },
+      {
+        "id": "CA-02",
+        "label": "Trigger / other"
+      },
+      {
+        "id": "CA-03",
+        "label": "Trigger / other"
+      },
+      {
+        "id": "O-01",
+        "label": "Trigger / other"
+      },
+      {
+        "id": "O-02",
+        "label": "Trigger / other"
+      },
+      {
+        "id": "O-03",
+        "label": "Trigger / other"
+      },
+      {
+        "id": "O-04",
+        "label": "Trigger / other"
+      },
+      {
+        "id": "F-01",
+        "label": "Trigger / other"
+      },
+      {
+        "id": "F-02",
+        "label": "Trigger / other"
+      },
+      {
+        "id": "F-03",
+        "label": "Trigger / other"
+      },
+      {
+        "id": "F-04",
+        "label": "Trigger / other"
+      },
+      {
+        "id": "SF-RR-01",
+        "label": "How many of the next 30 days\u2019 visits are contractually committed, tentatively scheduled, or uncommitted?"
+      },
+      {
+        "id": "SF-RR-02",
+        "label": "Across a recent typical week, how many scheduled visits were completed and what most often prevented completion?"
+      },
+      {
+        "id": "SF-RR-03",
+        "label": "In a typical recent month, which cancellations, skipped visits, or unbilled extras reduced earned revenue?"
+      },
+      {
+        "id": "SF-X-01",
+        "label": "If work is being turned away despite unused paid hours, where is the mismatch?"
+      }
+    ],
+    "case_id": "SF-01"
+  },
+  "roofing": {
+    "category": "Site & Field",
+    "questions": [
+      {
+        "id": "BC-01",
+        "label": "What does your business primarily provide? Choose category \u2192 business type; describe if needed."
+      },
+      {
+        "id": "BC-02",
+        "label": "How do you primarily earn revenue and fulfill customer commitments? Select primary model and any secondary models."
+      },
+      {
+        "id": "BC-03",
+        "label": "How long has the business operated?"
+      },
+      {
+        "id": "BC-04",
+        "label": "Approximate business scale: people, locations, and typical revenue band."
+      },
+      {
+        "id": "BC-05",
+        "label": "What is your main objective over the next 12 months? Maintain stability / improve profit / grow revenue / scale delivery / improve cash flow / prepare transition / other."
+      },
+      {
+        "id": "BC-06",
+        "label": "What would success look like for that objective? Quantified target or short description."
+      },
+      {
+        "id": "BC-07",
+        "label": "What are your top concerns or suspected bottlenecks?"
+      },
+      {
+        "id": "BC-08",
+        "label": "Any major seasonal, geographic, contractual, regulatory, or market conditions?"
+      },
+      {
+        "id": "BC-09",
+        "label": "How has the business changed recently (growth, downsizing, acquisition, new services)?"
+      },
+      {
+        "id": "BC-10",
+        "label": "Which services or revenue models account for most activity/revenue? Approximate shares if known."
+      },
+      {
+        "id": "D-01",
+        "label": "Trigger / other"
+      },
+      {
+        "id": "D-02",
+        "label": "Trigger / other"
+      },
+      {
+        "id": "D-03",
+        "label": "Trigger / other"
+      },
+      {
+        "id": "C-01",
+        "label": "Trigger / other"
+      },
+      {
+        "id": "C-02",
+        "label": "Trigger / other"
+      },
+      {
+        "id": "C-03",
+        "label": "Trigger / other"
+      },
+      {
+        "id": "CA-01",
+        "label": "Trigger / other"
+      },
+      {
+        "id": "CA-02",
+        "label": "Trigger / other"
+      },
+      {
+        "id": "CA-03",
+        "label": "Trigger / other"
+      },
+      {
+        "id": "O-01",
+        "label": "Trigger / other"
+      },
+      {
+        "id": "O-02",
+        "label": "Trigger / other"
+      },
+      {
+        "id": "O-03",
+        "label": "Trigger / other"
+      },
+      {
+        "id": "O-04",
+        "label": "Trigger / other"
+      },
+      {
+        "id": "F-01",
+        "label": "Trigger / other"
+      },
+      {
+        "id": "F-02",
+        "label": "Trigger / other"
+      },
+      {
+        "id": "F-03",
+        "label": "Trigger / other"
+      },
+      {
+        "id": "F-04",
+        "label": "Trigger / other"
+      },
+      {
+        "id": "SF-PI-01",
+        "label": "Of work expected over the next 90 days, what is signed, quoted and pending, or only a lead?"
+      },
+      {
+        "id": "SF-PI-02",
+        "label": "What share of qualified estimates converts to signed work, and what delays decisions?"
+      },
+      {
+        "id": "SF-PI-03",
+        "label": "For delayed projects, which causes are internal (staffing, scheduling, rework) versus external (permits, suppliers, client changes)?"
+      },
+      {
+        "id": "SF-PI-04",
+        "label": "When projects appear profitable but cash is tight, how do deposits, progress billing and collections align with costs?"
+      },
+      {
+        "id": "SF-X-01",
+        "label": "If work is being turned away despite unused paid hours, where is the mismatch?"
+      }
+    ],
+    "case_id": "SF-02"
+  },
+  "fixed-fee consulting": {
+    "category": "Professional",
+    "questions": [
+      {
+        "id": "BC-01",
+        "label": "What does your business primarily provide? Choose category \u2192 business type; describe if needed."
+      },
+      {
+        "id": "BC-02",
+        "label": "How do you primarily earn revenue and fulfill customer commitments? Select primary model and any secondary models."
+      },
+      {
+        "id": "BC-03",
+        "label": "How long has the business operated?"
+      },
+      {
+        "id": "BC-04",
+        "label": "Approximate business scale: people, locations, and typical revenue band."
+      },
+      {
+        "id": "BC-05",
+        "label": "What is your main objective over the next 12 months? Maintain stability / improve profit / grow revenue / scale delivery / improve cash flow / prepare transition / other."
+      },
+      {
+        "id": "BC-06",
+        "label": "What would success look like for that objective? Quantified target or short description."
+      },
+      {
+        "id": "BC-07",
+        "label": "What are your top concerns or suspected bottlenecks?"
+      },
+      {
+        "id": "BC-08",
+        "label": "Any major seasonal, geographic, contractual, regulatory, or market conditions?"
+      },
+      {
+        "id": "BC-09",
+        "label": "How has the business changed recently (growth, downsizing, acquisition, new services)?"
+      },
+      {
+        "id": "BC-10",
+        "label": "Which services or revenue models account for most activity/revenue? Approximate shares if known."
+      },
+      {
+        "id": "Demand D-01",
+        "label": "Is the amount of appropriate incoming work sufficient to sustain current operations?"
+      },
+      {
+        "id": "Demand D-02",
+        "label": "Relative to your stated objective, is your future work or opportunity pipeline sufficient?"
+      },
+      {
+        "id": "Demand D-03",
+        "label": "How predictable is incoming or committed work?"
+      },
+      {
+        "id": "Conversion C-01",
+        "label": "When an appropriate prospective customer engages, how consistently do opportunities become commitments?"
+      },
+      {
+        "id": "Conversion C-02",
+        "label": "Where do suitable opportunities most often stop progressing?"
+      },
+      {
+        "id": "Conversion C-03",
+        "label": "Do you know conversion rates for the relevant stages?"
+      },
+      {
+        "id": "Capacity CA-01",
+        "label": "Can the business meet current commitments within acceptable time and quality expectations?"
+      },
+      {
+        "id": "Capacity CA-02",
+        "label": "What most limits your ability to take on suitable additional work?"
+      },
+      {
+        "id": "Capacity CA-03",
+        "label": "How much usable resource availability do you have relative to planned demand?"
+      },
+      {
+        "id": "Operations O-01",
+        "label": "How consistently is work delivered as intended, without avoidable delays, errors, or rework?"
+      },
+      {
+        "id": "Operations O-02",
+        "label": "How dependent is routine execution on specific individuals, especially the owner?"
+      },
+      {
+        "id": "Operations O-03",
+        "label": "Are responsibilities, processes, and systems adequate for the business\u2019s current complexity?"
+      },
+      {
+        "id": "Operations O-04",
+        "label": "What most often causes avoidable time or quality loss?"
+      },
+      {
+        "id": "Financials F-01",
+        "label": "Are current revenues and margins sufficient to support ongoing operations?"
+      },
+      {
+        "id": "Financials F-02",
+        "label": "Does cash arrive in time to cover obligations without recurring strain?"
+      },
+      {
+        "id": "Financials F-03",
+        "label": "Do you have timely, reliable financial information to evaluate performance?"
+      },
+      {
+        "id": "Financials F-04",
+        "label": "Is the business financially prepared for its stated objective?"
+      },
+      {
+        "id": "PS-FP-01",
+        "label": "What proportion of qualified proposals becomes signed engagements?"
+      },
+      {
+        "id": "PS-FP-02",
+        "label": "For recent fixed-fee engagements, how often did actual delivery effort exceed scope without an approved fee adjustment?"
+      },
+      {
+        "id": "PS-FP-03",
+        "label": "What typically delays milestones or delivery?"
+      },
+      {
+        "id": "PS-X-01",
+        "label": "If clients are satisfied but margins fall, is the cause pricing, write-offs, over-service or delivery inefficiency?"
+      }
+    ],
+    "case_id": "PS-01"
+  },
+  "wealth advisory": {
+    "category": "Professional",
+    "questions": [
+      {
+        "id": "BC-01",
+        "label": "What does your business primarily provide? Choose category \u2192 business type; describe if needed."
+      },
+      {
+        "id": "BC-02",
+        "label": "How do you primarily earn revenue and fulfill customer commitments? Select primary model and any secondary models."
+      },
+      {
+        "id": "BC-03",
+        "label": "How long has the business operated?"
+      },
+      {
+        "id": "BC-04",
+        "label": "Approximate business scale: people, locations, and typical revenue band."
+      },
+      {
+        "id": "BC-05",
+        "label": "What is your main objective over the next 12 months? Maintain stability / improve profit / grow revenue / scale delivery / improve cash flow / prepare transition / other."
+      },
+      {
+        "id": "BC-06",
+        "label": "What would success look like for that objective? Quantified target or short description."
+      },
+      {
+        "id": "BC-07",
+        "label": "What are your top concerns or suspected bottlenecks?"
+      },
+      {
+        "id": "BC-08",
+        "label": "Any major seasonal, geographic, contractual, regulatory, or market conditions?"
+      },
+      {
+        "id": "BC-09",
+        "label": "How has the business changed recently (growth, downsizing, acquisition, new services)?"
+      },
+      {
+        "id": "BC-10",
+        "label": "Which services or revenue models account for most activity/revenue? Approximate shares if known."
+      },
+      {
+        "id": "Demand D-01",
+        "label": "Is the amount of appropriate incoming work sufficient to sustain current operations?"
+      },
+      {
+        "id": "Demand D-02",
+        "label": "Relative to your stated objective, is your future work or opportunity pipeline sufficient?"
+      },
+      {
+        "id": "Demand D-03",
+        "label": "How predictable is incoming or committed work?"
+      },
+      {
+        "id": "Conversion C-01",
+        "label": "When an appropriate prospective customer engages, how consistently do opportunities become commitments?"
+      },
+      {
+        "id": "Conversion C-02",
+        "label": "Where do suitable opportunities most often stop progressing?"
+      },
+      {
+        "id": "Conversion C-03",
+        "label": "Do you know conversion rates for the relevant stages?"
+      },
+      {
+        "id": "Capacity CA-01",
+        "label": "Can the business meet current commitments within acceptable time and quality expectations?"
+      },
+      {
+        "id": "Capacity CA-02",
+        "label": "What most limits your ability to take on suitable additional work?"
+      },
+      {
+        "id": "Capacity CA-03",
+        "label": "How much usable resource availability do you have relative to planned demand?"
+      },
+      {
+        "id": "Operations O-01",
+        "label": "How consistently is work delivered as intended, without avoidable delays, errors, or rework?"
+      },
+      {
+        "id": "Operations O-02",
+        "label": "How dependent is routine execution on specific individuals, especially the owner?"
+      },
+      {
+        "id": "Operations O-03",
+        "label": "Are responsibilities, processes, and systems adequate for the business\u2019s current complexity?"
+      },
+      {
+        "id": "Operations O-04",
+        "label": "What most often causes avoidable time or quality loss?"
+      },
+      {
+        "id": "Financials F-01",
+        "label": "Are current revenues and margins sufficient to support ongoing operations?"
+      },
+      {
+        "id": "Financials F-02",
+        "label": "Does cash arrive in time to cover obligations without recurring strain?"
+      },
+      {
+        "id": "Financials F-03",
+        "label": "Do you have timely, reliable financial information to evaluate performance?"
+      },
+      {
+        "id": "Financials F-04",
+        "label": "Is the business financially prepared for its stated objective?"
+      },
+      {
+        "id": "PS-AU-01",
+        "label": "Over a recent period, can you distinguish new-client assets, existing-client net flows, and market changes?"
+      },
+      {
+        "id": "PS-AU-02",
+        "label": "Of qualified prospective advisory relationships in a defined period, how many became funded, active clients?"
+      },
+      {
+        "id": "PS-AU-03",
+        "label": "Can current advisors and service teams meet review, planning and service commitments?"
+      },
+      {
+        "id": "PS-AU-04",
+        "label": "How sensitive is revenue to market values, fee schedules and client concentration?"
+      },
+      {
+        "id": "PS-X-01",
+        "label": "If clients are satisfied but margins fall, is the cause pricing, write-offs, over-service or delivery inefficiency?"
+      }
+    ],
+    "case_id": "PS-02"
+  },
+  "recruiting": {
+    "category": "Relationship & Transaction",
+    "questions": [
+      {
+        "id": "BC-01",
+        "label": "What does your business primarily provide? Choose category \u2192 business type; describe if needed."
+      },
+      {
+        "id": "BC-02",
+        "label": "How do you primarily earn revenue and fulfill customer commitments? Select primary model and any secondary models."
+      },
+      {
+        "id": "BC-03",
+        "label": "How long has the business operated?"
+      },
+      {
+        "id": "BC-04",
+        "label": "Approximate business scale: people, locations, and typical revenue band."
+      },
+      {
+        "id": "BC-05",
+        "label": "What is your main objective over the next 12 months? Maintain stability / improve profit / grow revenue / scale delivery / improve cash flow / prepare transition / other."
+      },
+      {
+        "id": "BC-06",
+        "label": "What would success look like for that objective? Quantified target or short description."
+      },
+      {
+        "id": "BC-07",
+        "label": "What are your top concerns or suspected bottlenecks?"
+      },
+      {
+        "id": "BC-08",
+        "label": "Any major seasonal, geographic, contractual, regulatory, or market conditions?"
+      },
+      {
+        "id": "BC-09",
+        "label": "How has the business changed recently (growth, downsizing, acquisition, new services)?"
+      },
+      {
+        "id": "BC-10",
+        "label": "Which services or revenue models account for most activity/revenue? Approximate shares if known."
+      },
+      {
+        "id": "Demand D-01",
+        "label": "Is the amount of appropriate incoming work sufficient to sustain current operations?"
+      },
+      {
+        "id": "Demand D-02",
+        "label": "Relative to your stated objective, is your future work or opportunity pipeline sufficient?"
+      },
+      {
+        "id": "Demand D-03",
+        "label": "How predictable is incoming or committed work?"
+      },
+      {
+        "id": "Conversion C-01",
+        "label": "When an appropriate prospective customer engages, how consistently do opportunities become commitments?"
+      },
+      {
+        "id": "Conversion C-02",
+        "label": "Where do suitable opportunities most often stop progressing?"
+      },
+      {
+        "id": "Conversion C-03",
+        "label": "Do you know conversion rates for the relevant stages?"
+      },
+      {
+        "id": "Capacity CA-01",
+        "label": "Can the business meet current commitments within acceptable time and quality expectations?"
+      },
+      {
+        "id": "Capacity CA-02",
+        "label": "What most limits your ability to take on suitable additional work?"
+      },
+      {
+        "id": "Capacity CA-03",
+        "label": "How much usable resource availability do you have relative to planned demand?"
+      },
+      {
+        "id": "Operations O-01",
+        "label": "How consistently is work delivered as intended, without avoidable delays, errors, or rework?"
+      },
+      {
+        "id": "Operations O-02",
+        "label": "How dependent is routine execution on specific individuals, especially the owner?"
+      },
+      {
+        "id": "Operations O-03",
+        "label": "Are responsibilities, processes, and systems adequate for the business\u2019s current complexity?"
+      },
+      {
+        "id": "Operations O-04",
+        "label": "What most often causes avoidable time or quality loss?"
+      },
+      {
+        "id": "Financials F-01",
+        "label": "Are current revenues and margins sufficient to support ongoing operations?"
+      },
+      {
+        "id": "Financials F-02",
+        "label": "Does cash arrive in time to cover obligations without recurring strain?"
+      },
+      {
+        "id": "Financials F-03",
+        "label": "Do you have timely, reliable financial information to evaluate performance?"
+      },
+      {
+        "id": "Financials F-04",
+        "label": "Is the business financially prepared for its stated objective?"
+      },
+      {
+        "id": "RT-PL-01",
+        "label": "Across recent qualified searches, where do candidates or assignments most often fail to progress?"
+      },
+      {
+        "id": "RT-PL-02",
+        "label": "Is placement volume limited by recruiter capacity, suitable candidates, client responsiveness or open requisitions?"
+      },
+      {
+        "id": "RT-X-01",
+        "label": "If pipeline is large but revenue is low, is the problem quality, stage progression, cycle length or external market conditions?"
+      }
+    ],
+    "case_id": "RT-01"
+  },
+  "brokerage and staffing": {
+    "category": "Relationship & Transaction",
+    "questions": [
+      {
+        "id": "BC-01",
+        "label": "What does your business primarily provide? Choose category \u2192 business type; describe if needed."
+      },
+      {
+        "id": "BC-02",
+        "label": "How do you primarily earn revenue and fulfill customer commitments? Select primary model and any secondary models."
+      },
+      {
+        "id": "BC-03",
+        "label": "How long has the business operated?"
+      },
+      {
+        "id": "BC-04",
+        "label": "Approximate business scale: people, locations, and typical revenue band."
+      },
+      {
+        "id": "BC-05",
+        "label": "What is your main objective over the next 12 months? Maintain stability / improve profit / grow revenue / scale delivery / improve cash flow / prepare transition / other."
+      },
+      {
+        "id": "BC-06",
+        "label": "What would success look like for that objective? Quantified target or short description."
+      },
+      {
+        "id": "BC-07",
+        "label": "What are your top concerns or suspected bottlenecks?"
+      },
+      {
+        "id": "BC-08",
+        "label": "Any major seasonal, geographic, contractual, regulatory, or market conditions?"
+      },
+      {
+        "id": "BC-09",
+        "label": "How has the business changed recently (growth, downsizing, acquisition, new services)?"
+      },
+      {
+        "id": "BC-10",
+        "label": "Which services or revenue models account for most activity/revenue? Approximate shares if known."
+      },
+      {
+        "id": "Demand D-01",
+        "label": "Is the amount of appropriate incoming work sufficient to sustain current operations?"
+      },
+      {
+        "id": "Demand D-02",
+        "label": "Relative to your stated objective, is your future work or opportunity pipeline sufficient?"
+      },
+      {
+        "id": "Demand D-03",
+        "label": "How predictable is incoming or committed work?"
+      },
+      {
+        "id": "Conversion C-01",
+        "label": "When an appropriate prospective customer engages, how consistently do opportunities become commitments?"
+      },
+      {
+        "id": "Conversion C-02",
+        "label": "Where do suitable opportunities most often stop progressing?"
+      },
+      {
+        "id": "Conversion C-03",
+        "label": "Do you know conversion rates for the relevant stages?"
+      },
+      {
+        "id": "Capacity CA-01",
+        "label": "Can the business meet current commitments within acceptable time and quality expectations?"
+      },
+      {
+        "id": "Capacity CA-02",
+        "label": "What most limits your ability to take on suitable additional work?"
+      },
+      {
+        "id": "Capacity CA-03",
+        "label": "How much usable resource availability do you have relative to planned demand?"
+      },
+      {
+        "id": "Operations O-01",
+        "label": "How consistently is work delivered as intended, without avoidable delays, errors, or rework?"
+      },
+      {
+        "id": "Operations O-02",
+        "label": "How dependent is routine execution on specific individuals, especially the owner?"
+      },
+      {
+        "id": "Operations O-03",
+        "label": "Are responsibilities, processes, and systems adequate for the business\u2019s current complexity?"
+      },
+      {
+        "id": "Operations O-04",
+        "label": "What most often causes avoidable time or quality loss?"
+      },
+      {
+        "id": "Financials F-01",
+        "label": "Are current revenues and margins sufficient to support ongoing operations?"
+      },
+      {
+        "id": "Financials F-02",
+        "label": "Does cash arrive in time to cover obligations without recurring strain?"
+      },
+      {
+        "id": "Financials F-03",
+        "label": "Do you have timely, reliable financial information to evaluate performance?"
+      },
+      {
+        "id": "Financials F-04",
+        "label": "Is the business financially prepared for its stated objective?"
+      },
+      {
+        "id": "RT-TC-01",
+        "label": "How many qualified opportunities are active at each meaningful transaction stage?"
+      },
+      {
+        "id": "RT-TC-02",
+        "label": "Of qualified opportunities from a defined cohort, how many eventually completed a fee-earning transaction?"
+      },
+      {
+        "id": "RT-TC-03",
+        "label": "When closings are strong but cash is volatile, how concentrated or delayed are commissions?"
+      },
+      {
+        "id": "RT-ST-01",
+        "label": "In a recent period, how many accepted orders or shifts were filled with qualified workers?"
+      },
+      {
+        "id": "RT-ST-02",
+        "label": "How often do no-shows, turnover or assignment mismatches disrupt service?"
+      },
+      {
+        "id": "RT-ST-03",
+        "label": "Do billing and payroll timing create recurring working-capital pressure?"
+      },
+      {
+        "id": "RT-X-01",
+        "label": "If pipeline is large but revenue is low, is the problem quality, stage progression, cycle length or external market conditions?"
+      }
+    ],
+    "case_id": "RT-02"
+  },
+  "fitness studio": {
+    "category": "Personal & Appointment",
+    "questions": [
+      {
+        "id": "BC-01",
+        "label": "What does your business primarily provide? Choose category \u2192 business type; describe if needed."
+      },
+      {
+        "id": "BC-02",
+        "label": "How do you primarily earn revenue and fulfill customer commitments? Select primary model and any secondary models."
+      },
+      {
+        "id": "BC-03",
+        "label": "How long has the business operated?"
+      },
+      {
+        "id": "BC-04",
+        "label": "Approximate business scale: people, locations, and typical revenue band."
+      },
+      {
+        "id": "BC-05",
+        "label": "What is your main objective over the next 12 months? Maintain stability / improve profit / grow revenue / scale delivery / improve cash flow / prepare transition / other."
+      },
+      {
+        "id": "BC-06",
+        "label": "What would success look like for that objective? Quantified target or short description."
+      },
+      {
+        "id": "BC-07",
+        "label": "What are your top concerns or suspected bottlenecks?"
+      },
+      {
+        "id": "BC-08",
+        "label": "Any major seasonal, geographic, contractual, regulatory, or market conditions?"
+      },
+      {
+        "id": "BC-09",
+        "label": "How has the business changed recently (growth, downsizing, acquisition, new services)?"
+      },
+      {
+        "id": "BC-10",
+        "label": "Which services or revenue models account for most activity/revenue? Approximate shares if known."
+      },
+      {
+        "id": "Demand D-01",
+        "label": "Is the amount of appropriate incoming work sufficient to sustain current operations?"
+      },
+      {
+        "id": "Demand D-02",
+        "label": "Relative to your stated objective, is your future work or opportunity pipeline sufficient?"
+      },
+      {
+        "id": "Demand D-03",
+        "label": "How predictable is incoming or committed work?"
+      },
+      {
+        "id": "Conversion C-01",
+        "label": "When an appropriate prospective customer engages, how consistently do opportunities become commitments?"
+      },
+      {
+        "id": "Conversion C-02",
+        "label": "Where do suitable opportunities most often stop progressing?"
+      },
+      {
+        "id": "Conversion C-03",
+        "label": "Do you know conversion rates for the relevant stages?"
+      },
+      {
+        "id": "Capacity CA-01",
+        "label": "Can the business meet current commitments within acceptable time and quality expectations?"
+      },
+      {
+        "id": "Capacity CA-02",
+        "label": "What most limits your ability to take on suitable additional work?"
+      },
+      {
+        "id": "Capacity CA-03",
+        "label": "How much usable resource availability do you have relative to planned demand?"
+      },
+      {
+        "id": "Operations O-01",
+        "label": "How consistently is work delivered as intended, without avoidable delays, errors, or rework?"
+      },
+      {
+        "id": "Operations O-02",
+        "label": "How dependent is routine execution on specific individuals, especially the owner?"
+      },
+      {
+        "id": "Operations O-03",
+        "label": "Are responsibilities, processes, and systems adequate for the business\u2019s current complexity?"
+      },
+      {
+        "id": "Operations O-04",
+        "label": "What most often causes avoidable time or quality loss?"
+      },
+      {
+        "id": "Financials F-01",
+        "label": "Are current revenues and margins sufficient to support ongoing operations?"
+      },
+      {
+        "id": "Financials F-02",
+        "label": "Does cash arrive in time to cover obligations without recurring strain?"
+      },
+      {
+        "id": "Financials F-03",
+        "label": "Do you have timely, reliable financial information to evaluate performance?"
+      },
+      {
+        "id": "Financials F-04",
+        "label": "Is the business financially prepared for its stated objective?"
+      },
+      {
+        "id": "PA-MB-01",
+        "label": "How many paying members are active, and what level of participation is intended for the business model?"
+      },
+      {
+        "id": "PA-MB-02",
+        "label": "Are popular class times full while other sessions have open capacity?"
+      },
+      {
+        "id": "PA-MB-03",
+        "label": "How much revenue depends on memberships versus drop-in or one-time services?"
+      }
+    ],
+    "case_id": "PA-01"
+  },
+  "outpatient rehabilitation": {
+    "category": "Personal & Appointment",
+    "questions": [
+      {
+        "id": "BC-01",
+        "label": "What does your business primarily provide? Choose category \u2192 business type; describe if needed."
+      },
+      {
+        "id": "BC-02",
+        "label": "How do you primarily earn revenue and fulfill customer commitments? Select primary model and any secondary models."
+      },
+      {
+        "id": "BC-03",
+        "label": "How long has the business operated?"
+      },
+      {
+        "id": "BC-04",
+        "label": "Approximate business scale: people, locations, and typical revenue band."
+      },
+      {
+        "id": "BC-05",
+        "label": "What is your main objective over the next 12 months? Maintain stability / improve profit / grow revenue / scale delivery / improve cash flow / prepare transition / other."
+      },
+      {
+        "id": "BC-06",
+        "label": "What would success look like for that objective? Quantified target or short description."
+      },
+      {
+        "id": "BC-07",
+        "label": "What are your top concerns or suspected bottlenecks?"
+      },
+      {
+        "id": "BC-08",
+        "label": "Any major seasonal, geographic, contractual, regulatory, or market conditions?"
+      },
+      {
+        "id": "BC-09",
+        "label": "How has the business changed recently (growth, downsizing, acquisition, new services)?"
+      },
+      {
+        "id": "BC-10",
+        "label": "Which services or revenue models account for most activity/revenue? Approximate shares if known."
+      },
+      {
+        "id": "Demand D-01",
+        "label": "Is the amount of appropriate incoming work sufficient to sustain current operations?"
+      },
+      {
+        "id": "Demand D-02",
+        "label": "Relative to your stated objective, is your future work or opportunity pipeline sufficient?"
+      },
+      {
+        "id": "Demand D-03",
+        "label": "How predictable is incoming or committed work?"
+      },
+      {
+        "id": "Conversion C-01",
+        "label": "When an appropriate prospective customer engages, how consistently do opportunities become commitments?"
+      },
+      {
+        "id": "Conversion C-02",
+        "label": "Where do suitable opportunities most often stop progressing?"
+      },
+      {
+        "id": "Conversion C-03",
+        "label": "Do you know conversion rates for the relevant stages?"
+      },
+      {
+        "id": "Capacity CA-01",
+        "label": "Can the business meet current commitments within acceptable time and quality expectations?"
+      },
+      {
+        "id": "Capacity CA-02",
+        "label": "What most limits your ability to take on suitable additional work?"
+      },
+      {
+        "id": "Capacity CA-03",
+        "label": "How much usable resource availability do you have relative to planned demand?"
+      },
+      {
+        "id": "Operations O-01",
+        "label": "How consistently is work delivered as intended, without avoidable delays, errors, or rework?"
+      },
+      {
+        "id": "Operations O-02",
+        "label": "How dependent is routine execution on specific individuals, especially the owner?"
+      },
+      {
+        "id": "Operations O-03",
+        "label": "Are responsibilities, processes, and systems adequate for the business\u2019s current complexity?"
+      },
+      {
+        "id": "Operations O-04",
+        "label": "What most often causes avoidable time or quality loss?"
+      },
+      {
+        "id": "Financials F-01",
+        "label": "Are current revenues and margins sufficient to support ongoing operations?"
+      },
+      {
+        "id": "Financials F-02",
+        "label": "Does cash arrive in time to cover obligations without recurring strain?"
+      },
+      {
+        "id": "Financials F-03",
+        "label": "Do you have timely, reliable financial information to evaluate performance?"
+      },
+      {
+        "id": "Financials F-04",
+        "label": "Is the business financially prepared for its stated objective?"
+      },
+      {
+        "id": "PA-SE-01",
+        "label": "Are practitioner hours and suitable rooms available when clients need sessions?"
+      },
+      {
+        "id": "PA-SE-02",
+        "label": "Do handoffs, documentation or scheduling create avoidable delays?"
+      },
+      {
+        "id": "PA-CL-01",
+        "label": "Can appropriate appointments be offered within the practice\u2019s own operational access targets?"
+      },
+      {
+        "id": "PA-CL-02",
+        "label": "Which nonclinical administrative processes most often delay scheduling or payment?"
+      },
+      {
+        "id": "PA-MV-01",
+        "label": "Are planned follow-up visits coordinated without avoidable administrative gaps?"
+      },
+      {
+        "id": "PA-MV-02",
+        "label": "Do reimbursement, payer timing or cancellations create cash-flow pressure?"
+      },
+      {
+        "id": "PA-X-01",
+        "label": "If repeat visits decline, is this clinically appropriate completion, patient choice, access difficulty or an administrative issue?"
+      }
+    ],
+    "case_id": "PA-02"
+  },
+  "managed it": {
+    "category": "Other Client-Based",
+    "questions": [
+      {
+        "id": "BC-01",
+        "label": "What does your business primarily provide? Choose category \u2192 business type; describe if needed."
+      },
+      {
+        "id": "BC-02",
+        "label": "How do you primarily earn revenue and fulfill customer commitments? Select primary model and any secondary models."
+      },
+      {
+        "id": "BC-03",
+        "label": "How long has the business operated?"
+      },
+      {
+        "id": "BC-04",
+        "label": "Approximate business scale: people, locations, and typical revenue band."
+      },
+      {
+        "id": "BC-05",
+        "label": "What is your main objective over the next 12 months? Maintain stability / improve profit / grow revenue / scale delivery / improve cash flow / prepare transition / other."
+      },
+      {
+        "id": "BC-06",
+        "label": "What would success look like for that objective? Quantified target or short description."
+      },
+      {
+        "id": "BC-07",
+        "label": "What are your top concerns or suspected bottlenecks?"
+      },
+      {
+        "id": "BC-08",
+        "label": "Any major seasonal, geographic, contractual, regulatory, or market conditions?"
+      },
+      {
+        "id": "BC-09",
+        "label": "How has the business changed recently (growth, downsizing, acquisition, new services)?"
+      },
+      {
+        "id": "BC-10",
+        "label": "Which services or revenue models account for most activity/revenue? Approximate shares if known."
+      },
+      {
+        "id": "Demand D-01",
+        "label": "Is the amount of appropriate incoming work sufficient to sustain current operations?"
+      },
+      {
+        "id": "Demand D-02",
+        "label": "Relative to your stated objective, is your future work or opportunity pipeline sufficient?"
+      },
+      {
+        "id": "Demand D-03",
+        "label": "How predictable is incoming or committed work?"
+      },
+      {
+        "id": "Conversion C-01",
+        "label": "When an appropriate prospective customer engages, how consistently do opportunities become commitments?"
+      },
+      {
+        "id": "Conversion C-02",
+        "label": "Where do suitable opportunities most often stop progressing?"
+      },
+      {
+        "id": "Conversion C-03",
+        "label": "Do you know conversion rates for the relevant stages?"
+      },
+      {
+        "id": "Capacity CA-01",
+        "label": "Can the business meet current commitments within acceptable time and quality expectations?"
+      },
+      {
+        "id": "Capacity CA-02",
+        "label": "What most limits your ability to take on suitable additional work?"
+      },
+      {
+        "id": "Capacity CA-03",
+        "label": "How much usable resource availability do you have relative to planned demand?"
+      },
+      {
+        "id": "Operations O-01",
+        "label": "How consistently is work delivered as intended, without avoidable delays, errors, or rework?"
+      },
+      {
+        "id": "Operations O-02",
+        "label": "How dependent is routine execution on specific individuals, especially the owner?"
+      },
+      {
+        "id": "Operations O-03",
+        "label": "Are responsibilities, processes, and systems adequate for the business\u2019s current complexity?"
+      },
+      {
+        "id": "Operations O-04",
+        "label": "What most often causes avoidable time or quality loss?"
+      },
+      {
+        "id": "Financials F-01",
+        "label": "Are current revenues and margins sufficient to support ongoing operations?"
+      },
+      {
+        "id": "Financials F-02",
+        "label": "Does cash arrive in time to cover obligations without recurring strain?"
+      },
+      {
+        "id": "Financials F-03",
+        "label": "Do you have timely, reliable financial information to evaluate performance?"
+      },
+      {
+        "id": "Financials F-04",
+        "label": "Is the business financially prepared for its stated objective?"
+      },
+      {
+        "id": "OC-MS-01",
+        "label": "Of service commitments due in a recent period, what proportion met the contracted response and resolution standard?"
+      },
+      {
+        "id": "OC-MS-02",
+        "label": "When tickets or requests rise, can qualified staff meet commitments without persistent overtime?"
+      },
+      {
+        "id": "OC-MS-03",
+        "label": "For a typical managed-service account, what is the fee and approximate labor/support effort required?"
+      },
+      {
+        "id": "OC-X-01",
+        "label": "If clients report good outcomes but delivery cost rises, what changed in scope, complexity, rework or staffing?"
+      }
+    ],
+    "case_id": "OC-01"
+  },
+  "event management": {
+    "category": "Other Client-Based",
+    "questions": [
+      {
+        "id": "BC-01",
+        "label": "What does your business primarily provide? Choose category \u2192 business type; describe if needed."
+      },
+      {
+        "id": "BC-02",
+        "label": "How do you primarily earn revenue and fulfill customer commitments? Select primary model and any secondary models."
+      },
+      {
+        "id": "BC-03",
+        "label": "How long has the business operated?"
+      },
+      {
+        "id": "BC-04",
+        "label": "Approximate business scale: people, locations, and typical revenue band."
+      },
+      {
+        "id": "BC-05",
+        "label": "What is your main objective over the next 12 months? Maintain stability / improve profit / grow revenue / scale delivery / improve cash flow / prepare transition / other."
+      },
+      {
+        "id": "BC-06",
+        "label": "What would success look like for that objective? Quantified target or short description."
+      },
+      {
+        "id": "BC-07",
+        "label": "What are your top concerns or suspected bottlenecks?"
+      },
+      {
+        "id": "BC-08",
+        "label": "Any major seasonal, geographic, contractual, regulatory, or market conditions?"
+      },
+      {
+        "id": "BC-09",
+        "label": "How has the business changed recently (growth, downsizing, acquisition, new services)?"
+      },
+      {
+        "id": "BC-10",
+        "label": "Which services or revenue models account for most activity/revenue? Approximate shares if known."
+      },
+      {
+        "id": "Demand D-01",
+        "label": "Is the amount of appropriate incoming work sufficient to sustain current operations?"
+      },
+      {
+        "id": "Demand D-02",
+        "label": "Relative to your stated objective, is your future work or opportunity pipeline sufficient?"
+      },
+      {
+        "id": "Demand D-03",
+        "label": "How predictable is incoming or committed work?"
+      },
+      {
+        "id": "Conversion C-01",
+        "label": "When an appropriate prospective customer engages, how consistently do opportunities become commitments?"
+      },
+      {
+        "id": "Conversion C-02",
+        "label": "Where do suitable opportunities most often stop progressing?"
+      },
+      {
+        "id": "Conversion C-03",
+        "label": "Do you know conversion rates for the relevant stages?"
+      },
+      {
+        "id": "Capacity CA-01",
+        "label": "Can the business meet current commitments within acceptable time and quality expectations?"
+      },
+      {
+        "id": "Capacity CA-02",
+        "label": "What most limits your ability to take on suitable additional work?"
+      },
+      {
+        "id": "Capacity CA-03",
+        "label": "How much usable resource availability do you have relative to planned demand?"
+      },
+      {
+        "id": "Operations O-01",
+        "label": "How consistently is work delivered as intended, without avoidable delays, errors, or rework?"
+      },
+      {
+        "id": "Operations O-02",
+        "label": "How dependent is routine execution on specific individuals, especially the owner?"
+      },
+      {
+        "id": "Operations O-03",
+        "label": "Are responsibilities, processes, and systems adequate for the business\u2019s current complexity?"
+      },
+      {
+        "id": "Operations O-04",
+        "label": "What most often causes avoidable time or quality loss?"
+      },
+      {
+        "id": "Financials F-01",
+        "label": "Are current revenues and margins sufficient to support ongoing operations?"
+      },
+      {
+        "id": "Financials F-02",
+        "label": "Does cash arrive in time to cover obligations without recurring strain?"
+      },
+      {
+        "id": "Financials F-03",
+        "label": "Do you have timely, reliable financial information to evaluate performance?"
+      },
+      {
+        "id": "Financials F-04",
+        "label": "Is the business financially prepared for its stated objective?"
+      },
+      {
+        "id": "OC-EV-01",
+        "label": "How much future event work is contracted versus tentative?"
+      },
+      {
+        "id": "OC-EV-02",
+        "label": "Which resources most often threaten event delivery: vendors, staff, venues, logistics or client approvals?"
+      },
+      {
+        "id": "OC-EV-03",
+        "label": "Do client deposits and vendor payment deadlines create cash-flow gaps?"
+      },
+      {
+        "id": "OC-X-01",
+        "label": "If clients report good outcomes but delivery cost rises, what changed in scope, complexity, rework or staffing?"
+      }
+    ],
+    "case_id": "OC-02"
+  }
+}
